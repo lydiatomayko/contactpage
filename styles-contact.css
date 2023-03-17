@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background-image: url("images/rocks-bg.jpg");
+  background-image: url("images/Costa Rica Rainbow.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -71,15 +71,15 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(255, 255, 255, 0.75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	/*border: 4px dashed white;*/ /*removed dashed border*/
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
+	/*border: 3px dashed red;*/ /*removed dashed line*/
 	text-align: center;
 }
 
@@ -87,14 +87,14 @@ h1 {
 	font-family: "futura-pt", sans-serif; 
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: #1a4320; /*changed color*/
 }
 
 h2 {
 	 font-family: "futura-pt", sans-serif;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color: #1a4320; /*changed color*/
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -103,14 +103,14 @@ p {
 	font-family: "futura-pt", sans-serif;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+    color: #1a4320; /*changed color*/
 }
 nav{
 	font-family: "futura-pt", sans-serif;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	width: 400px;
 	margin: 0 auto;
-	border: dashed turquoise;
+	/*border: dashed turquoise;*/ /*removed border*/
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em
@@ -132,7 +132,7 @@ a{
 	}
 
 a:hover{
-	color: black;
+	color: #1a4320;
 	background: pink;
 	}
 
